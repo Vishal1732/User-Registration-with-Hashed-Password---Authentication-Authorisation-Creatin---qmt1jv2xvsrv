@@ -9,6 +9,10 @@ var userSchema = mongoose.Schema({
     type: String,
     required: true,
   },
+  DOB:{
+    type: String,
+    required: true,
+  },
   email: {
     type: String,
     required: true,
